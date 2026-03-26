@@ -15,11 +15,17 @@ st.set_page_config(layout="wide")
 @st.cache_data
 def load_data():
 
+    ## Quando botar todos
+    #arquivos = [
+    #    "dengue2021.csv",
+    #    "dengue2022.csv",
+    #    "dengue2023.csv"
+    #]
+
+    ## rodar no streamlit
     arquivos = [
-        "dengue2021.csv",
-        "dengue2022.csv",
-        "dengue2023.csv"
-    ]
+        "dengue.csv",
+     ]
 
     dfs = []
 
